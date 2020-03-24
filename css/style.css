@@ -179,3 +179,59 @@ a{
   font-weight: lighter;
   padding-left: 3em;
 }
+
+
+/* BREAKPOINTS */
+@media screen and (min-width: 40em) {
+
+  .side-info {
+    display: block;
+    left: 0;
+    z-index: 1;
+    width: 20em;
+    opacity: 1;
+    transform: translateX(-20em);
+    transition: transform var(--animations);
+    padding-top: 8em;
+  }
+
+  .side-info.open {
+    transform: translateX(0em);
+  }
+
+  .conversation {
+    transition: margin-left var(--animations);
+  }
+
+  .side-info.open ~ .conversation {
+    margin-left: 32em;
+  }
+
+  .toggle-side {
+    position: absolute;
+    top: 8em;
+    left: auto;
+    right: -1.5em;
+    width: 1.5em;
+    height: 5em;
+    padding: 0.25em;
+    text-align: center;
+  }
+
+  .toggle-side span {
+    writing-mode: vertical-rl;
+  }
+  
+}
+
+@media screen and (min-width: 60em) {
+
+  .side-info {
+    width: 30em;
+  }
+
+  .conversation {
+    margin-left: 30em;
+  }
+
+}
