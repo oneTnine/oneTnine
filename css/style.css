@@ -180,6 +180,28 @@ a{
   padding-left: 3em;
 }
 
+.message-footer{
+  position: fixed;
+  bottom: 1em;
+  width: 90%;
+}
+
+.new-message{
+  display: grid;
+  grid-template-columns: auto 4em;
+  text-align: center;
+}
+
+.new-message-form{
+  width: 99%;
+}
+
+.send-btn{
+  background-color: var(--col-theme-accent3);
+  color: var(--col-theme-accent3-fg);
+  border:none
+}
+
 
 /* BREAKPOINTS */
 @media screen and (min-width: 40em) {
@@ -202,9 +224,13 @@ a{
   .conversation {
     transition: margin-left var(--animations);
   }
-
+  
   .side-info.open ~ .conversation {
-    margin-left: 32em;
+    margin-left: 21em;
+  }
+
+  .new-message{
+    margin-right: 19em;
   }
 
   .toggle-side {
@@ -224,14 +250,35 @@ a{
   
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 65em) {
+  .conversation {
+    margin-left: 20em;
+    margin-right: 10em;
+  }
+  
+  .side-info.open ~ .conversation {
+    margin-left: 32em;
+  }
+
+  .new-message{
+    margin-left: 2em;
+    margin-right: 30em;
+  }
+  
+}
+
+@media screen and (min-width: 70em) {
 
   .side-info {
     width: 30em;
   }
 
   .conversation {
-    margin-left: 30em;
+    margin-left: 20em;
+    margin-right: 10em;
   }
 
+  .new-message{
+    margin-right: 30em;
+  }
 }
