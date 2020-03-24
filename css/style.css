@@ -62,7 +62,7 @@ a{
 
 .logo-container{
   display: grid;
-  grid-template-columns: 3em 3em;
+  grid-template-columns: 3em 2.1em;
   grid-template-areas:  "img txt";
   font-size: 2.2em;
 }
@@ -76,6 +76,7 @@ a{
 .logo-txt{
   grid-area: txt;
   padding-top: 0.9em;
+  font-weight: bold;
 }
 
 .side-info {
@@ -199,7 +200,7 @@ a{
 .send-btn{
   background-color: var(--col-theme-accent3);
   color: var(--col-theme-accent3-fg);
-  border:none
+  border: none;
 }
 
 
