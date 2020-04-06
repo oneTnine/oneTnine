@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Grouptalk from 'components/Grouptalk';
+import Directtalk from 'components/Directtalk';
+
 import 'css/index.css';
 import 'css/reset.css';
 import logo from 'img/oneTnine_Talk_logo_White.svg';
@@ -26,17 +28,6 @@ const Chatlog = () => {
 	)
 }
 
-
-const Directtalk = () => {
-	return (
-		<ul className="names">
-            <li>Bijaya Gautam</li>
-            <li>Tim Martin</li>
-            <li>Joshua Ryan</li>
-            <li>Bob Calhoun</li>
-        </ul>
-	)
-}
 
 const App = () => {
 
