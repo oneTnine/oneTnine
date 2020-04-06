@@ -1,42 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Grouptalk from 'components/Grouptalk';
+import Directtalk from 'components/Directtalk';
+import Chatlog from 'components/Chatlog';
 import 'css/index.css';
 import 'css/reset.css';
 import logo from 'img/oneTnine_Talk_logo_White.svg';
-
-const Message = () => {
-	return (
-		<section id="messages">
-            <p className="sent-message">Hello Tim, This is a Test Message.</p>
-        </section>
-	)
-}
-
-const Chatlog = () => {
-	return (
-		<header>
-            <ul className="chat-log">
-                <i className="fas fa-user-astronaut chat-userImg"></i>
-                <li className="chat-userName">Bijaya Gautam</li>
-                <li className="chat-time">2:45 pm</li>
-            </ul>
-            <Message/>{/* component */}
-        </header>
-	)
-}
-
-
-const Directtalk = () => {
-	return (
-		<ul className="names">
-            <li>Bijaya Gautam</li>
-            <li>Tim Martin</li>
-            <li>Joshua Ryan</li>
-            <li>Bob Calhoun</li>
-        </ul>
-	)
-}
 
 const App = () => {
 
