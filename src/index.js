@@ -1,3 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'css/index.css';
+import 'css/reset.css';
+import logo from 'img/oneTnine_Talk_logo_White.svg';
+
 const Message = () => {
 	return (
 		<section id="messages">
@@ -47,7 +53,7 @@ const App = () => {
 		<div>
             <header className="main-header">
                 <div className="logo-container" >
-                <a href="/"><img src="/img/oneTnine_Talk_logo_White.svg" alt="oneTnine talk logo" className="logo"/></a>
+                <a href="/"><img src={logo} alt="oneTnine talk logo" className="logo"/></a>
                 <a href="/" className="logo-txt">TALK</a>
                 </div>
             </header>
@@ -99,3 +105,4 @@ const App = () => {
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
