@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Grouptalk from 'components/Grouptalk';
 import 'css/index.css';
 import 'css/reset.css';
 import logo from 'img/oneTnine_Talk_logo_White.svg';
@@ -33,16 +34,6 @@ const Directtalk = () => {
             <li>Tim Martin</li>
             <li>Joshua Ryan</li>
             <li>Bob Calhoun</li>
-        </ul>
-	)
-}
-
-const Grouptalk = () => {
-	return (
-		<ul className="names">
-            <li># Codextreme</li>
-            <li># Game of Codes</li>
-            <li># Alpha Coders</li>
         </ul>
 	)
 }
