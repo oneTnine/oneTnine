@@ -1,0 +1,20 @@
+{
+  "name": "onetnine-talk",
+  "version": "1.0.0",
+  "description": "oneTnine Talk is the software developer community chat application which can be used by organization where user can discuss or talk about possible future technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneTnine/oneTnine.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneTnine/oneTnine.github.io/issues"
+  },
+  "homepage": "https://github.com/oneTnine/oneTnine.github.io#readme"
+}
