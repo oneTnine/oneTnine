@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/oneTnine/oneTnine.github.io/issues"
   },
-  "homepage": "https://github.com/oneTnine/oneTnine.github.io#readme"
+  "homepage": "https://github.com/oneTnine/oneTnine.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0"
+  }
 }
