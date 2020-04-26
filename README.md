@@ -5,7 +5,13 @@ oneTnine Talk is the software developer community chat application which can be 
 - Bijaya ([@bijayagautam](http://github.com/bijayagautam))
 
 ## Setup
-- NA
+- npm install
+
+>For Development
+- npm start
+
+>For Production
+- npm run build
 
 ## Repository Management Strategy
 - Created develop branch and set as default to protect master branch.
