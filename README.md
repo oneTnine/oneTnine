@@ -1,3 +1,5 @@
+# ✅ READY TO GRADE
+
 # oneTnine-Talk
 oneTnine Talk is the software developer community chat application which can be used by organization where user can discuss or talk about possible future technology.
 
